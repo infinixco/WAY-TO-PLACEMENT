@@ -1,0 +1,30 @@
+﻿GRAPHS
+
+
+* A Graph is a non-linear data structure consisting of nodes and edges.
+* Vertex − Each node of the graph is represented as a vertex.
+* Edge − Edge represents a path between two vertices.
+* Adjacency − Two node or vertices are adjacent if they are connected to each other through an edge.
+* Path − Path represents a sequence of edges between the two vertices.
+
+
+Types of graphs 
+* DIRECTED
+* UNDIRECTED
+
+
+GRAPH TRAVERSAL TECHNIQUES
+* BFS
+* DFS
+
+
+BFS (BREADTH FIRST SEARCH)
+
+
+We use the following steps to implement BFS traversal...
+* Step 1 - Define a Queue of size total number of vertices in the graph.
+* Step 2 - Select any vertex as starting point for traversal. Visit that vertex and insert it into the Queue.
+* Step 3 - Visit all the non-visited adjacent vertices of the vertex which is at front of the Queue and insert them into the Queue.
+* Step 4 - When there is no new vertex to be visited from the vertex which is at front of the Queue then delete that vertex.
+* Step 5 - Repeat steps 3 and 4 until queue becomes empty.
+* Step 6 - When queue becomes empty, then produce final spanning tree by removing unused edges from the graph
