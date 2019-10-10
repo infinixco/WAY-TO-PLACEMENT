@@ -1,0 +1,16 @@
+﻿Basic:Basic Data Structures, Basic Concepts and Notations, Complexity analysis: time space and trade off, Omega Notation, Theta Notation, Big O notation Arrays : Linear arrays: memory representation, Traversal, Insertion, Deletion, Searching, Merging and their complexity analysis. Sorting and Searching : Bubble sort, Insertion sort, Selection sort 
+
+
+Linked Lists : Introduction, Memory representation, Allocation, Traversal, Insertion, Deletion, Header linked lists: Grounded and Circular, Two-way lists: operations on two way linked lists
+
+
+Stacks : Introduction: List and Array representations, Operations on stack (traversal, push and pop), Arithmetic expressions: polish notation, evaluation and transformation of expressions., Evaluation and transformation of expressions, Towers of Hanoi, Merge sort Queues and Recursion : Array and list representation, operations (traversal, insertion and deletion), Priority Queues, Deques, Function Call, Recursion implementation and Complexity issues. 
+
+
+Trees : Binary trees: introduction (complete and extended binary trees), memory representation (linked, sequential), Pre-order traversal using Stack, In-order traversal using Stack, Post-order traversal using Stack, Binary Search Tree- searching, Binary Search Tree- Insertion, Binary Search Tree- deletion 
+
+
+AVL trees and Heaps : AVL trees Introduction, AVL trees Insertion, AVL trees Deletion, Heaps: Insertion, Heaps: Deletion, HeapSort, Huffman algorithm 
+
+
+Graphs : Warshall's algorithm, Shortest path algorithm Floyd Warshall Algorithm(modified warshall algorithm), Graph Traversal: BFS, DFS Hashing : Hashing Introduction, Hash Functions, Hash Table, Closed hashing (open addressing), Linear Probing, Quadratic Probing, Double Hashing, Open hashing (separate chaining)

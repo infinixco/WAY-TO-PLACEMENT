@@ -1,0 +1,27 @@
+How to see ir of llvm compiled file using clangs
+create a file without header files example
+-------------------------------------------------------
+vi file.c
+-------------------------------------------------------
+code :
+int a=10;
+-------------------------------------------------------
+command:
+./clang -O0 -S -emit-llvm file.c
+--------------------------------------------------------
+vi file.ll
+--------------------------------------------------------
+output:
+ModuleID = 'test.c'
+source_filename = "test.c"
+target datalayout = "e-m:e-i64:64-n32:64"
+target triple = "powerpc64le-unknown-linux-gnu"
+--------------------------------------------------------
+@a = dso_local global i32 10, align 4
+#this part is the main part as it shows 
+i32- integer of 32 bits
+align - no of bits allocated per initilization
+--------------------------------------------------------
+!llvm.module.flags = !{!0}
+!llvm.ident = !{!1}
+---------------------------------------------------------
