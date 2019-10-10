@@ -1,37 +1,27 @@
 //
 //  main.cpp
-//  4-02-2019
+//  call byrefence
 //
-//  Created by APPLE on 2/4/19.
+//  Created by APPLE on 2/5/19.
 //  Copyright © 2019 APPLE. All rights reserved.
 //
-//static
-#include <iostream>
-using namespace std;
 
-class super
+#include <iostream>
+
+using namespace std;
+void swap (int &a,int &b)
 {
-public:
-    static int m;
-    int x;
-    static int memfun ()
-    {
-        cout<<"\nValue of a is "<<m;
-    }
-    void display()
-        {
-            cout<<"\n Value is"<<++m;
-        }
-    
-};
-int super::m=20;//how to initialize static data function
-int mian()
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"in function values after swap are "<<a<<endl<<b;
+}
+int main()
 {
-    super s1,s2;
-    s1.display();
-    s2.display();
-    super::memfun();
-    s2.memfun();
-    
+    int x,y;
+    cin>>x>>y;
+    cout<<"values after swap are "<<x<<endl<<y;
+    swap(x,y);
+    cout<<"values after swap are "<<x<<endl<<y;
     return 0;
 }
