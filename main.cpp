@@ -1,27 +1,33 @@
 //
 //  main.cpp
-//  call byrefence
+//  class named acc holder balance
 //
-//  Created by APPLE on 2/5/19.
+//  Created by APPLE on 2/26/19.
 //  Copyright © 2019 APPLE. All rights reserved.
 //
 
 #include <iostream>
-
 using namespace std;
-void swap (int &a,int &b)
+class account
 {
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    cout<<"in function values after swap are "<<a<<endl<<b;
+    int acc_num;
+    char hname[30];
+    float balance;
+public:
+    void in()
+    {
+        cin>>acc_num>>hname>>balance;
+    }
+    void friend frr(account a1);
+};
+void frr(account a2)
+{
+    cout<<a2.acc_num<<endl<<a2.hname;
+    cout<<a2.balance-2000;
 }
 int main()
-{
-    int x,y;
-    cin>>x>>y;
-    cout<<"values after swap are "<<x<<endl<<y;
-    swap(x,y);
-    cout<<"values after swap are "<<x<<endl<<y;
-    return 0;
-}
+    {
+        account aa;
+        aa.in();
+        frr(aa);
+    }
