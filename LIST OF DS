@@ -1,0 +1,83 @@
+Linked List
+  Insertion at beginning
+  Insertion at end
+  Insertion after specified node
+  Deletion at beginning
+  Deletion at end
+  Deletion after specified node
+  Traversing
+  Searching
+  Doubly Linked List
+  Insertion at beginning
+  Insertion at end
+  Insertion after specified node
+  Deletion at beginning
+  Deletion at end
+  Deletion of node having given data
+  Traversing
+  Searching
+Circular Linked List
+  Insertion at beginning
+  Insertion at end
+  Deletion at beginning
+  Deletion at the end
+  Traversing
+  Searching
+Circular Doubly List
+  Insertion at beginning
+  Insertion at end
+  Deletion at beginning
+  Deletion at the end
+DS Stack
+  Array Implementation
+  Linked List Implementation
+DS Queue
+  Array Implementation
+  Linked List Implementation
+  Circular Queue
+Tree
+  Binary Tree
+  Pre-order Traversal
+  In-order Traversal
+  Post-order Traversal
+  Binary Search Tree
+  Searching in BST
+  Insertion in BST
+  Deletion in BST
+AVL Tree
+  Insertion in AVL Tree
+  LL Rotation
+  LR Rotation
+  RL Rotation
+  RR Rotation
+  Deletion in AVL Tree
+  B  Tree
+  B+ Tree
+  Red Black Tree
+DS Graph
+  Graph Implementation
+  BFS Algorithm
+  DFS Algorithm
+  Spanning Tree
+  Prim's Algorithm
+  Kruskal's Algorithm
+  DS Searching
+Searching and sorting  
+  Linear Search
+  Binary Search
+  DS Sorting
+  Bubble Sort
+  Bucket Sort
+  Comb Sort
+  Counting Sort
+  Heap Sort
+  Insertion Sort
+  Merge Sort
+  Quick Sort
+  Radix Sort
+  Selection Sort
+  Shell Sort
+  Bitonic Sort
+  Cocktail Sort
+  Cycle Sort
+  Tim Sort

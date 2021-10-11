@@ -1,0 +1,25 @@
+﻿LIST OF ALGORITHMS
+
+
+* Insertion
+* Selection
+* Bubble 
+* Merge
+* Quick sort
+* Binary search
+* Bfs
+* Dfs
+* Lee algorithm
+* Flood fill
+* Floyd’s cycle algorithm
+* Kadane’s algorithm
+* Longest integer subsequence 
+* Inorder 
+* Post order
+* Pre order
+* Heap sort 
+* Topological sorting
+* Union find algorithm
+* Floyd warshall algorithm
+* Dijkstra’s algorithm
+* Kruskal’s algorithm
