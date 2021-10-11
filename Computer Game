@@ -1,0 +1,10 @@
+    def solve():
+        n=int(input())
+        word1=input()
+        word2=input()
+        for i in range(n):
+            if word1[i]=='1' and word2[i]=='1':return 'NO'
+        return 'YES'
+     
+    for _ in range(int(input())):
+        print(solve())
